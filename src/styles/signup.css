@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.signup-form{
+    font-family: Roboto;
+}
 .logo-img{
-    height: 55px;
+    height: 60px;
+    
+}
+.signup-form> h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #0F96C3;
 }
