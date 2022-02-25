@@ -37,3 +37,27 @@ font-family: Roboto;
 color: rgba(68, 78, 99, 0.3);
 padding-left: 9px;
 }
+
+.signup-btn{
+margin-top: 43px;
+background: #0F96C3;
+border: 2px solid #0F96C3;
+box-sizing: border-box;
+width: 200px;
+height: 40px;
+font-family: Roboto;
+font-weight: 600;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.signup-form> p{
+font-size: 14px;
+color: #444E63;
+}
+
+.signup-form> a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0F96C3;
+    }
