@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;300;400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
+.Signup{
+    height: 100vh;
+    background: url("../resources/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .signup-form{
     font-family: Roboto;
 }
@@ -19,6 +27,7 @@ width: 400px;
 height: 30px;
 border-style: solid;
 border-color: #C7CAD0;
+margin: 10px 0;
 }
 
 input::placeholder{
