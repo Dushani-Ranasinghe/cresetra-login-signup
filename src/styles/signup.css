@@ -13,3 +13,18 @@
     line-height: 33px;
     color: #0F96C3;
 }
+
+.form-control{
+width: 400px;
+height: 30px;
+border-style: solid;
+border-color: #C7CAD0;
+}
+
+input::placeholder{
+font-size: 14px;
+line-height: 16px;
+font-family: Roboto;
+color: rgba(68, 78, 99, 0.3);
+padding-left: 9px;
+}
