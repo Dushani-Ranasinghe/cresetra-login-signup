@@ -1,13 +1,13 @@
 import React from 'react'
 import Logo from  "../resources/Crestera-Logo.png"
-import "../styles/signup.css"
+import "../styles/form.css"
 
 
 function Signup() {
   return (
-    <div className='Signup'>
-        <div className='signup-container'>
-        <form className='signup-form'>
+    <div className='Form'>
+        <div className='Form-container'>
+        <form className='form'>
             <img className="logo-img" src={Logo} alt="cresetra-logo"/>
             <h1> SIGN UP</h1>
 
@@ -26,7 +26,7 @@ function Signup() {
             <div className='form-group'>
                  <input type="text" className='form-control' placeholder='Confirm Password'/>
             </div>
-            <button type="submit" className="signup-btn">SIGN UP</button>
+            <button type="submit" className="form-btn">SIGN UP</button>
                 <p>
                     Already Have An Account?
                 </p>
