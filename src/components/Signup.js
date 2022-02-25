@@ -6,7 +6,7 @@ import "../styles/signup.css"
 function Signup() {
   return (
     <div className='Signup'>
-        
+        <div className='signup-container'>
         <form className='signup-form'>
             <img className="logo-img" src={Logo} alt="cresetra-logo"/>
             <h1> SIGN UP</h1>
@@ -32,6 +32,7 @@ function Signup() {
                 </p>
                 <a href="#">Login</a>
         </form>
+        </div>
     </div>
   )
 }
