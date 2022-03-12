@@ -63,7 +63,7 @@ input::placeholder > input:focus{
     color: #5B545B;
 }
 
-.form-btn{
+.form-btn, .form-btn-login{
 margin-top: 15px;
 background: #0F96C3;
 border: 2px solid #0F96C3;
@@ -73,6 +73,9 @@ height: 30px;
 font-weight: 570;
 font-size: 12px;
 color: #FFFFFF;
+}
+.form-btn-login{
+  margin-top: 50px;
 }
 
 .form> p{
